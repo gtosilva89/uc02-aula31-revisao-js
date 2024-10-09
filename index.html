@@ -1,32 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./assets/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 08/10/2024 - Revisão JS - Votação Online</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Votação Online</title>
 </head>
 
 <body>
     <div id="root">
         <div id="frame">
             <div id="screen">
-                <!-- Aqui vem os dados para a tela -->
                 <h1>TREINAMENTO</h1>
-                <h3 id="position">Vereador</h3>
-                <div id="digits">
-                    <div id="digito1"></div>
-                    <div id="digito2"></div>
-                    <div id="digito3"></div>
-                    <div id="digito4"></div>
-                    <div id="digito5"></div>
+                <div id="current">
+                    <h1 id="position">Vereador</h1>
+                    <div id="ballot">
+                        <div id="digits">
+                            <div class="digit" id="digit1">1</div>
+                            <div class="digit" id="digit2">2</div>
+                            <div class="digit" id="digit3">3</div>
+                            <div class="digit" id="digit4">4</div>
+                            <div class="digit" id="digit5">5</div>
+                        </div>
+                        <div id="candidate">
+                            <img id="img-candidate" src="" alt="">
+                            <h3 id="party">PARTIDO MUSICAL</h3>
+                            <h4 id="name">Rock</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="details">
             <div id="info"></div>
-            <div id="keyboards">
+            <div id="keyboard">
                 <div id="numbers"></div>
                 <div id="commands"></div>
             </div>

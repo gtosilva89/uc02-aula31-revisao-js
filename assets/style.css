@@ -87,7 +87,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #fff;
 }
 
 #img-candidate {
@@ -102,7 +101,6 @@ body {
     display: flex;
     align-items: start;
     gap: 5px;
-    background-color: #fff;
 }
 
 .white-vote {
